@@ -7,7 +7,7 @@ name = "autoneurorepair"
 version = "0.1.0"
 description = "Experimental self-healing EEG/BCI system"
 requires-python = ">=3.11,<3.12"
-dependencies = []
+dependencies = ["mne==1.11.0"]
 
 [project.optional-dependencies]
 dev = [
@@ -19,3 +19,4 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+markers = ["integration: Gate B; requires an actual A01T.gdf and MNE"]
