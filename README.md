@@ -19,24 +19,30 @@ Gate A uses artificial files and a Mock Reader. It requires no real GDF and
 does not import MNE on its injected-reader path. The ordinary editable install
 above also installs the pinned MNE dependency for the actual loader.
 
-Gate B is separate and requires a real file and its trusted acquisition record:
+Gate B is separate and requires the real file. A trusted acquisition record
+is optional; without it the source identity is not established and the
+expected `processing_status` is `UNKNOWN`:
 
 ```powershell
 $env:ANR_A01T_PATH = 'C:\data\A01T.gdf'
+# Optional, all three or none:
 $env:ANR_A01T_REFERENCE_SHA256 = '<64 lowercase hex characters from a trusted acquisition record>'
 $env:ANR_A01T_REFERENCE_URL = '<HTTPS official acquisition URL>'
 $env:ANR_A01T_REFERENCE_NOTE = '<how and when official acquisition was verified>'
-& .\.venv\Scripts\python.exe -m pytest -q -m integration
+& .\.venv\Scripts\python.exe -m pytest -q -rP -m integration
 ```
 
 Replace every placeholder before running Gate B. Do not label a hash freshly
 computed from an unverified file as an independently verified reference.
 The reference can be a previously recorded hash from a verified official
 download; ANR does not claim that the publisher has published a checksum.
-Missing inputs cause a skip with `Gate B BLOCKED`. A skip is not a Gate B PASS.
+A missing file causes a skip with `Gate B BLOCKED`. A skip is not a Gate B PASS.
+Gate B checks that the status follows consistently from the recorded evidence;
+it does not require `RAW`. The A01T assessment is printed separately.
 
 ## Current verification status
 
-Code and tests are written, but Python execution was blocked in the task
-environment. Neither Gate A nor Gate B has been run or passed. See
+T001 code is committed on `main`. Gate A was run at commit `f775173`
+(Python 3.11.5, pytest 8.4.2): 52 passed, 0 failed, 0 skipped. Gate B is
+BLOCKED because no actual `A01T.gdf` is available, so T001 is not PASS. See
 [implementation notes](docs/anr-t001.md) for decisions, scope, and limitations.

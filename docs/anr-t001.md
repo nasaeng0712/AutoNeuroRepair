@@ -6,12 +6,13 @@
 
 ## 현재 상태
 
-- 코드 작성: 완료, 실행 검증 전.
-- Gate A: BLOCKED / NOT RUN. Python 실행 차단을 재시도하거나 환경을 재구축하지 않았다.
-- Gate B: BLOCKED / NOT RUN. 실제 A01T.gdf 및 신뢰할 수 있는 취득 기록이 필요하다.
+- 코드 작성: 완료. T001 코드는 `main`에 commit되어 있다(`f775173`).
+- Gate A: PASS. commit `f775173`, Python 3.11.5, pytest 8.4.2,
+  `python -m pytest -m "not integration"` 결과 52 passed / 0 failed / 0 skipped.
+  Gate A는 MNE를 import하지 않으며 실행 환경에 MNE는 설치되어 있지 않았다.
+- Gate B: BLOCKED. 로컬 환경에 실제 A01T.gdf가 없다.
 - T001 전체 PASS: 선언하지 않는다.
-- T000-R의 승인 문서 복원은 이전 작업 결과다. Python 복구 완료로 간주하지 않는다.
-- commit/push는 수행하지 않았다.
+- T000-R의 승인 문서 복원은 이전 작업 결과다.
 
 ## 파일과 함수
 
@@ -116,9 +117,13 @@ Gate A의 임시 파일은 GDF 형식이 아니다. 결과에는 validation_scop
 mne_version=null이 기록된다. 테스트에서 RAW라는 결과를 얻더라도 실제 EEG 검증이 아니다.
 
 Gate B: 실제 MNE 반환 객체와 공식 문서의 250 Hz, 25채널(22 EEG + 3 EOG),
-288 trial 시작 및 네 클래스 각 72 cue를 대조한다. 출처 해시/처리 이력/JSON 왕복을
-확인하며 미해결 검토 항목 없이 RAW 조건을 만족하는지 확인한다.
-실제 파일/취득 기록 입력이 없으면 BLOCKED 메시지와 함께 skip한다.
+288 trial 시작 및 네 클래스 각 72 cue를 대조한다. 출처 해시와 artifact 연결,
+loader 옵션, 수집/처리 이력, JSON 왕복을 확인하고, 저장된 evidence와
+processing_history로 판정을 다시 계산해 기록된 결과와 일치하는지 확인한다.
+특정 processing_status(RAW)를 요구하지 않는다. RAW/PROCESSED/UNKNOWN 중
+evidence와 일관된 결과이면 Software Verification을 통과하며, A01T의 실제 판정은
+별도로 출력한다. 취득 기록(SourceReference)은 선택이며 없으면 UNKNOWN이 예상된다.
+실제 파일 입력이 없으면 BLOCKED 메시지와 함께 skip한다.
 전체 pytest 명령이 성공 종료해도 Gate B skip은 전체 T001 PASS가 아니다.
 
 ## 사용 예
@@ -148,8 +153,7 @@ JSON 검사는 일관성 검사이며 전자서명/악의적인 동시 변조 �
 정적 검토 결과: 데이터 흐름과 예외 경로를 직접 읽고 점검했다. 확인된 추가 처리와
 부정 주장의 충돌 보존, source reference와 JSON 근거의 연결 검사, 0 값 필터의
 불명확한 의미를 보완했다. 이번 T001 변경 파일 7개에서 후행 공백은 발견되지 않았다.
-Gate A 테스트 함수 정의는 38개(매개변수화 포함), Gate B는 1개다. 이는 pytest 수집
-결과나 실행 건수가 아니다. Python 문법 컴파일, 테스트 수집, 테스트 실행은 하지 않았다.
+pytest 수집 결과는 53개다(Gate A 52개, Gate B 1개). 실행 결과는 위 "현재 상태"에 기록했다.
 
 - 공식 데이터 문서: https://www.bbci.de/competition/iv/desc_2a.pdf
 - MNE 1.11.0 구현: https://github.com/mne-tools/mne-python/blob/v1.11.0/mne/io/edf/edf.py
