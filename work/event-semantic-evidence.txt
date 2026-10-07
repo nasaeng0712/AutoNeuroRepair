@@ -1,0 +1,36 @@
+ANR Event Semantic evidence (working tree on top of HEAD ac31ce6, uncommitted)
+Date: 2026-10-06 (local run)
+Environment: Python 3.11.5, MNE 1.11.0, pytest 8.4.2 (.venv)
+Actual file: C:\BCICIV_2a_gdf\A01T.gdf (SHA-256 74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3)
+ANR_A01T_PATH was set only for the commands marked [A01T].
+
+Commands and results
+[1] python -m pytest tests/test_event_semantics.py -q                      30 passed, 0 failed, 0 skipped
+[2] python -m pytest tests/test_event_semantics.py tests/test_validation.py
+    tests/test_provenance.py tests/test_import.py -q                       119 passed, 0 failed, 0 skipped
+[3] python -m pytest -m "not integration" -q                               119 passed, 0 failed, 0 skipped (3 deselected)
+[4] [A01T] python -m pytest -m integration -q                              3 passed, 0 failed, 0 skipped
+[5] [A01T] python -m pytest -q                                             122 passed, 0 failed, 0 skipped
+[6] (no ANR_A01T_PATH) python -m pytest -q                                 119 passed, 0 failed, 3 skipped (BLOCKED, not PASS)
+
+Actual A01T observed native event counts (decoded annotations via load_a01t)
+276=1 277=1 768=288 769=72 770=72 771=72 772=72 783=0 1023=15 1072=1 32766=9
+undefined native events observed: none (undefined_native_codes == [])
+task_label_counts: left_hand=72 right_hand=72 both_feet=72 tongue=72
+32766 records: 9 x (event_role=run_start, task_id=motor_imagery, semantic_label_id=None)
+
+A01T assessment (context; separate from software verification)
+processing_status = UNKNOWN (official source identity not established; no reference supplied)
+Basic Integrity = PASS (Structural PASS, Finite PASS)
+
+Unchanged by Event Semantic (asserted in tests/test_event_semantics_integration.py)
+provenance record, processing_status, Basic Integrity result, Raw signal (SHA-256 of data),
+Raw annotations (onset, duration, description).
+
+Applied decisions
+- 32766 -> run_start, task_id=motor_imagery, semantic_label_id=None, name "Start of a new run".
+- Undefined native code -> record with event_role=unknown_native_event, task_id=None,
+  semantic_label_id=None, human_readable_name=None, original native code preserved,
+  counted in coverage and listed in undefined_native_codes.
+- Fail-closed: require_semantic_complete(records) raises SemanticIncompleteError if any record
+  is unknown_native_event. No completeness/eligibility flag is added to any output.

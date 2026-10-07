@@ -1,0 +1,36 @@
+ANR Trial Assembly Metadata v1 evidence (working tree on top of HEAD ac31ce6, uncommitted)
+Date: 2026-10-06 (local run)
+Environment: Python 3.11.5, MNE 1.11.0, pytest 8.4.2 (.venv)
+Actual file: C:\BCICIV_2a_gdf\A01T.gdf (SHA-256 74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3)
+[A01T] = ANR_A01T_PATH set.
+
+Commands and results
+[1] python -m pytest tests/test_trial_assembly.py -q                                 29 passed, 0 failed, 0 skipped
+[2] python -m pytest tests/test_event_semantics.py -q                                30 passed, 0 failed, 0 skipped
+[3] python -m pytest tests/test_validation.py tests/test_provenance.py tests/test_import.py -q
+                                                                                      89 passed, 0 failed, 0 skipped
+[4] python -m pytest -m "not integration" -q                                         148 passed, 0 failed, 0 skipped (4 deselected)
+[5] [A01T] python -m pytest -m integration -q                                        4 passed, 0 failed, 0 skipped
+[6] [A01T] python -m pytest -q                                                       152 passed, 0 failed, 0 skipped
+[7] python -m pytest -q (no ANR_A01T_PATH)                                           148 passed, 0 failed, 4 skipped (BLOCKED, not PASS)
+
+Position representation (actual A01T)
+raw.first_samp = 0; annotations.orig_time == raw.info["meas_date"]; sfreq = 250.0; n_times = 672528;
+603 annotations, in non-decreasing source order. index = round(onset * sfreq) reproduces every onset
+exactly (index / sfreq == onset, no tolerance). Events share a sample in some places (768 with 1023,
+32766 with 276/277/1072); membership depends on sample index only, so no tie-break was needed.
+
+Actual A01T Trial Assembly result (tests/test_trial_assembly_integration.py)
+anchors 288; associated task labels 288
+overall: left_hand 72, right_hand 72, both_feet 72, tongue 72
+task-bearing MI runs 6 (run_segment_index 4..9); trials per run 48 x 6
+per run: left_hand 12, right_hand 12, both_feet 12, tongue 12 (every run)
+cue deltas: {500} samples (= 2 * 250 Hz) for all 288 trials
+trial ids: 288 unique, each "<source_sha256>:<anchor sample>"; first = 74d900ce...:91868
+1023: observed 15, associated 15, orphan 0; trials with a rejection marker 15 (none removed)
+orphan anchors 0, orphan labels 0 (assembly raises otherwise); undefined native events: none
+A01T context: processing_status = UNKNOWN (no trusted reference supplied); Basic Integrity = PASS
+
+Unchanged by Trial Assembly (asserted in the integration test)
+Event Semantic records, provenance record, processing_status, Basic Integrity result,
+Raw signal (SHA-256 of data), Raw annotations (onset, duration, description, orig_time).

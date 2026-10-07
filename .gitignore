@@ -18,3 +18,5 @@ htmlcov/
 .DS_Store
 Thumbs.db
 *.egg-info/
+# Generated test reports
+tests/output/

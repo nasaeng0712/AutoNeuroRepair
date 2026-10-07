@@ -1,0 +1,28 @@
+ANR Channel Canonicalization (Phase A) and Canonical Trial Dataset (Phase B) evidence
+Base HEAD ac31ce6 + accumulated pipeline work; recorded at the Pipeline checkpoint commit.
+Date: 2026-10-07 (local run)
+Environment: Python 3.11.5, MNE 1.11.0, NumPy 2.4.6, SciPy 1.17.1, pytest 8.4.2 (.venv)
+Actual file: C:\BCICIV_2a_gdf\A01T.gdf (SHA-256 74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3)
+[A01T] = ANR_A01T_PATH set. Pre-work baseline: [A01T] 170 passed; no A01T 165 passed, 5 skipped.
+
+Commands and results
+[1] python -m pytest tests/test_channel_canonicalization.py -q     18 passed, 0 failed, 0 skipped
+[2] python -m pytest tests/test_canonical_dataset.py -q            11 passed, 0 failed, 0 skipped
+[3] python -m pytest -m "not integration" -q                       194 passed, 0 failed, 0 skipped (7 deselected)
+[4] [A01T] python -m pytest -m integration -q                      7 passed, 0 failed, 0 skipped
+[5] [A01T] python -m pytest -q                                     201 passed, 0 failed, 0 skipped
+[6] python -m pytest -q (no ANR_A01T_PATH)                         194 passed, 0 failed, 7 skipped (BLOCKED, not PASS)
+
+Phase A actual A01T: PASS
+source channel -> canonical id (source order = canonical order, 25 channels, each exactly once)
+0 EEG-Fz bciciv2a:eeg:01 | 1 EEG-0 :02 | 2 EEG-1 :03 | 3 EEG-2 :04 | 4 EEG-3 :05 | 5 EEG-4 :06 | 6 EEG-5 :07
+7 EEG-C3 :08 | 8 EEG-6 :09 | 9 EEG-Cz :10 | 10 EEG-7 :11 | 11 EEG-C4 :12 | 12 EEG-8 :13 | 13 EEG-9 :14
+14 EEG-10 :15 | 15 EEG-11 :16 | 16 EEG-12 :17 | 17 EEG-13 :18 | 18 EEG-14 :19 | 19 EEG-Pz :20
+20 EEG-15 :21 | 21 EEG-16 :22 | 22 EOG-left bciciv2a:eog:01 | 23 EOG-central :02 | 24 EOG-right :03
+X_eeg [288, 22, 1500]; X_eog [288, 3, 1500]; values equal the raw source slices; trial order and ids unchanged.
+
+Phase B actual A01T: PASS
+canonical_dataset_id 74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:canonical-trial-dataset-v1
+X_eeg [288, 22, 1500]; X_eog [288, 3, 1500]; y_semantic [288]; trial_metadata 288 records; all values finite
+rejection-marked trials 15 (kept); task-bearing runs 1..6; source_processing_status snapshot = UNKNOWN
+history: trial_signal_selection, channel_canonicalization; dataset validation: PASS (10 checks)

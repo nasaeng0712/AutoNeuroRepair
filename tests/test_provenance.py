@@ -174,18 +174,29 @@ def test_warning_recorded_without_fabricating_conflict(sample):
     assert record["loader"]["warnings"] == ["Synthetic ambiguous GDF header"]
 
 
-def test_returned_sample_rate_conflict(sample):
-    sample[2].info["sfreq"] = 200.0
-    _, record = load_sample(sample)
-    assert record["processing_status"] == "UNKNOWN"
-    assert any(c["item"] == "sfreq" for c in record["conflicts"])
+def drop_last_channel(raw):
+    """A consistent 24-channel file: names and header arrays shrink together."""
+    raw.ch_names = raw.ch_names[:24]
+    header = raw._raw_extras[0]
+    header["sel"] = header["sel"][:24]
+    for key in ("n_samps", "cal", "offsets", "units"):
+        header[key] = header[key][:24]
 
 
-def test_missing_sample_rate_is_unknown_not_conflict(sample):
-    sample[2].info["sfreq"] = None
-    _, record = load_sample(sample)
-    assert record["processing_status"] == "UNKNOWN"
-    assert record["conflicts"] == []
+@pytest.mark.parametrize("mutate", [
+    lambda raw: raw.info.update(sfreq=200.0),
+    lambda raw: raw.info.update(sfreq=None),
+    lambda raw: setattr(raw, "n_times", 0),
+    lambda raw: setattr(raw, "get_channel_types", lambda: ["eeg"] * 25),
+    lambda raw: drop_last_channel(raw),
+])
+def test_dataset_structure_does_not_change_processing_status(sample, mutate):
+    # Channels, sfreq and sample count are validated by anr.validation, not here.
+    mutate(sample[2])
+    raw, record = load_sample(sample)
+    assert raw is sample[2]
+    assert record["processing_status"] == "RAW"
+    assert record["conflicts"] == [] and not record["review_required"]
 
 
 def test_source_changed_during_read_fails_and_closes_raw(sample):
@@ -202,13 +213,6 @@ def test_reader_error_is_not_reported_as_success(sample):
     sample[3].side_effect = ValueError("Invalid GDF")
     with pytest.raises(ValueError, match="Invalid GDF"):
         load_sample(sample)
-
-
-def test_no_samples_is_error_and_closes_raw(sample):
-    sample[2].n_times = 0
-    with pytest.raises(ValueError, match="no samples"):
-        load_sample(sample)
-    assert sample[2].closed
 
 
 def test_missing_file_does_not_call_reader(tmp_path):

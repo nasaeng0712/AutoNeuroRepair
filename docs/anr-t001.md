@@ -108,7 +108,7 @@ raw.info의 필터 요약에는 기본값이 있을 수 있으므로 그 값만�
 ## 작성된 테스트
 
 Gate A: 세 상태, 미확인/직접 확인 처리, 동일 단계/항목 충돌, 처리 이력과 부정 주장
-충돌, 정보 부재, 반환 메타데이터 불일치, 단위/암묵적 재표본화 이력, 옵션과 버전,
+충돌, 정보 부재, 데이터셋 구조값이 상태에 영향을 주지 않음, 단위/암묵적 재표본화 이력, 옵션과 버전,
 lazy loading, Reader 경고와 예외, 파일 부재/권한/파일명/로딩 중 변경,
 샘플 부재, UUID/해시 연결, JSON 왕복과 이동 파일 검증, JSON 오류/변조,
 원본·기존 JSON 덮어쓰기 방지, 저장 경로·권한 오류를 포함한다.
@@ -160,3 +160,11 @@ pytest 수집 결과는 53개다(Gate A 52개, Gate B 1개). 실행 결과는 �
 - MNE 버전 요구사항: https://github.com/mne-tools/mne-python/blob/v1.11.0/pyproject.toml
 
 MOABB, PSD, 배열 체크섬, Detection/Diagnosis/Repair는 도입하지 않았다.
+
+## 후속 검증 (anr.validation)
+
+채널 수, 샘플링 주파수, 채널 타입, 배열 shape, NaN/Inf는 processing_status에 영향을
+주지 않는다. 이 값들은 loader가 metadata 스냅샷으로만 기록하고, 로딩 후
+`anr.validation`이 별도로 검사한다 (`validate_structural`, `validate_finite`,
+`validate_basic_integrity`). 결과는 공통 스키마의 dict이며 파일을 쓰지 않는다.
+TXT 보고서는 tests/report_utils.py가 실제 A01T integration에서만 만든다.

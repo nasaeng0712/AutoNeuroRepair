@@ -56,7 +56,7 @@ def _audit_loader(raw, *, preload, version):
         header = raw._raw_extras[0]
         decoded = bool(preload and raw.preload)
         selected = [int(i) for i in header["sel"]]
-        if selected != list(range(25)):
+        if selected != list(range(len(raw.ch_names))):
             return history, details, False
         samples = [int(header["n_samps"][i]) for i in selected]
         maximum = int(header["max_samp"])
@@ -66,7 +66,7 @@ def _audit_loader(raw, *, preload, version):
         details["max_samples_per_record"] = maximum
         for key in ("cal", "offsets", "units"):
             values = [_number(v) for v in header[key]]
-            if len(values) != 25 or any(v is None for v in values):
+            if len(values) != len(selected) or any(v is None for v in values):
                 return history, details, False
             details[key] = values
         history.append(ProcessingStep(
@@ -105,6 +105,8 @@ def load_a01t(path, *, source_reference=None, preload=True,
     with mne_version=None; they are never actual GDF integration evidence.
     processing_history records caller-confirmed prior operations; it never
     applies processing. Provenance covers this load, not later Raw mutations.
+    Dataset-structure values (channels, sfreq, shape, NaN/Inf) are only recorded
+    in metadata; they never affect processing_status (see anr.validation).
     """
     path = Path(path).resolve()
     if path.name != "A01T.gdf":
@@ -150,13 +152,8 @@ def load_a01t(path, *, source_reference=None, preload=True,
                     "annotation_count": len(raw.annotations),
                     "returned_highpass": _number(raw.info.get("highpass")),
                     "returned_lowpass": _number(raw.info.get("lowpass"))}
-        if metadata["n_times"] <= 0:
-            raise ValueError("Reader returned no samples")
         loader_history, header, audited = _audit_loader(raw, preload=preload, version=version)
         history.extend(loader_history)
-        expected_types = ["eeg"] * 22 + ["eog"] * 3
-        audited = (audited and metadata["channel_types"] == expected_types
-                   and metadata["sfreq"] is not None)
         # Warnings are retained, but are not invented contradictions. A warning
         # leaves the audit incomplete pending review of the exact message.
         audited = audited and not caught
@@ -171,11 +168,6 @@ def load_a01t(path, *, source_reference=None, preload=True,
                 Evidence("source", "sha256", source_reference.sha256,
                          source_reference.url + " | " + source_reference.verification, "reported"),
                 Evidence("source", "sha256", digest, str(path), "direct"),
-            ])
-        for item, expected in (("sfreq", 250.0), ("n_channels", 25)):
-            claims.extend([
-                Evidence("source", item, expected, OFFICIAL_DOCUMENT, "document"),
-                Evidence("source", item, metadata[item], "Returned reader metadata", "metadata"),
             ])
         acquisition = []
         for item, key, expected in (("highpass_hz", "highpass", 0.5),

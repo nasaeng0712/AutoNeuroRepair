@@ -1,0 +1,33 @@
+ANR Canonical Trial Signal Extraction evidence (working tree on top of HEAD ac31ce6, uncommitted)
+Date: 2026-10-07 (local run)
+Environment: Python 3.11.5, MNE 1.11.0, pytest 8.4.2 (.venv)
+Actual file: C:\BCICIV_2a_gdf\A01T.gdf (SHA-256 74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3)
+[A01T] = ANR_A01T_PATH set. Pre-work baseline (this session): [A01T] 152 passed; no A01T 148 passed, 4 skipped.
+
+Commands and results
+[1] python -m pytest tests/test_signal_extraction.py -q                                17 passed, 0 failed, 0 skipped
+[2] python -m pytest tests/test_trial_assembly.py -q                                   29 passed, 0 failed, 0 skipped
+[3] python -m pytest tests/test_event_semantics.py -q                                  30 passed, 0 failed, 0 skipped
+[4] python -m pytest tests/test_validation.py tests/test_provenance.py tests/test_import.py -q
+                                                                                        89 passed, 0 failed, 0 skipped
+[5] python -m pytest -m "not integration" -q                                           165 passed, 0 failed, 0 skipped (5 deselected)
+[6] [A01T] python -m pytest -m integration -q                                          5 passed, 0 failed, 0 skipped
+[7] [A01T] python -m pytest -q                                                         170 passed, 0 failed, 0 skipped
+[8] python -m pytest -q (no ANR_A01T_PATH)                                             165 passed, 0 failed, 5 skipped (BLOCKED, not PASS)
+
+Actual A01T Canonical Trial Signal Extraction (tests/test_signal_extraction_integration.py)
+source: sfreq 250.0, n_times 672528, 25 channels (22 eeg + 3 eog, source order kept)
+assembled trials 288; extracted trials 288; samples per trial 1500 (window [0.0, 6.0) half-open)
+epoch shape (25, 1500) for all; collection shape [288, 25, 1500] (pre_channel_canonicalization)
+min start sample 91868; max end-exclusive sample 672050 (< 672528)
+source boundary violations 0; trial-span violations 0
+rejected trials (rejection_marker_present) 15 measured now; all 15 extracted with marker kept and
+values equal to the source slice
+signal mismatches 0 (every epoch == source[:, anchor:anchor+1500]); lineage mismatches 0;
+channel-order mismatches 0; upstream mutations 0
+MNE signal unit code of all channels: 107 (FIFF_UNIT_V); header units in record: 1e-06 (loader SI conversion recorded)
+A01T context: processing_status = UNKNOWN (no trusted reference supplied); Basic Integrity = PASS
+
+Unchanged by extraction (asserted in the integration test)
+Trial Assembly metadata, Event Semantic records, Basic Integrity result, provenance record,
+processing_status, Raw signal (SHA-256 of data), Raw annotations, source channel names/types/order.
