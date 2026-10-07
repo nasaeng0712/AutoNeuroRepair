@@ -1,0 +1,103 @@
+{
+  "validation": {
+    "n": 46,
+    "accuracy": 0.7608695652173914,
+    "balanced_accuracy": 0.7575757575757576,
+    "cohen_kappa": 0.6809583858764187,
+    "confusion_matrix": [
+      [
+        11,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        9,
+        3,
+        0
+      ],
+      [
+        2,
+        1,
+        7,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        8
+      ]
+    ],
+    "class_order": [
+      "left_hand",
+      "right_hand",
+      "both_feet",
+      "tongue"
+    ],
+    "per_class_support": {
+      "left_hand": 12,
+      "right_hand": 12,
+      "both_feet": 11,
+      "tongue": 11
+    }
+  },
+  "test": {
+    "n": 45,
+    "accuracy": 0.7333333333333333,
+    "balanced_accuracy": 0.7367424242424242,
+    "cohen_kappa": 0.6445029624753127,
+    "confusion_matrix": [
+      [
+        8,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        11,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        7,
+        4
+      ],
+      [
+        0,
+        0,
+        4,
+        7
+      ]
+    ],
+    "class_order": [
+      "left_hand",
+      "right_hand",
+      "both_feet",
+      "tongue"
+    ],
+    "per_class_support": {
+      "left_hand": 11,
+      "right_hand": 11,
+      "both_feet": 12,
+      "tongue": 11
+    }
+  },
+  "stage_gate": {
+    "balanced_accuracy_gt": 0.25,
+    "kappa_gt": 0.0
+  },
+  "qualification": {
+    "gates": {
+      "validation_balanced_accuracy": true,
+      "validation_kappa": true,
+      "test_balanced_accuracy": true,
+      "test_kappa": true
+    },
+    "status": "PASS"
+  }
+}

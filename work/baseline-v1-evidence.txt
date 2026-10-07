@@ -1,0 +1,51 @@
+ANR CSP + LDA Baseline v1 evidence
+Date: 2026-10-07 (local run)
+Pipeline checkpoint commit: f5da6e4cfb4e6fe3ffb794b25e17e69736a48ab2 (clean)
+Training code/config commit (clean working tree at training time): 034e18e7b62fa91ca00519be386ef0d88129546f
+Environment: Python 3.11.5, MNE 1.11.0, scikit-learn 1.9.1 (pinned in pyproject.toml), NumPy 2.4.6, SciPy 1.17.1, pytest 8.4.2
+Actual file: C:\BCICIV_2a_gdf\A01T.gdf (SHA-256 74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3)
+Final training command (clean tree, HEAD 034e18e):
+  python -m anr.baseline_run C:\BCICIV_2a_gdf\A01T.gdf results/baseline-csp-lda-v1
+Artifacts: results/baseline-csp-lda-v1/{freeze_manifest.json, model.joblib, metrics.json,
+  software_verification.json, split_manifest.json, run_summary.json}
+
+Test commands at the training commit ([A01T] = ANR_A01T_PATH set)
+python -m pytest tests/test_baseline.py -q                              18 passed, 0 failed, 0 skipped
+python -m pytest <pipeline unit test files> -q                          194 passed, 0 failed, 0 skipped
+python -m pytest -m "not integration" -q                                212 passed, 0 failed, 0 skipped (8 deselected)
+[A01T] python -m pytest -m integration -q                               8 passed, 0 failed, 0 skipped
+[A01T] python -m pytest -q                                              220 passed, 0 failed, 0 skipped
+python -m pytest -q (no ANR_A01T_PATH)                                  212 passed, 0 failed, 8 skipped (BLOCKED, not PASS)
+
+Split manifest (run 1-4 TRAIN, 5 VALIDATION, 6 TEST)
+trials 288 kept in the dataset; rejected (native 1023) 15 -> model_eligible=false, reason "trial_rejection_marker (native 1023)"
+clean trials: TRAIN 182 (left 46, right 46, both_feet 45, tongue 45); VALIDATION 46 (12, 12, 11, 11); TEST 45 (11, 11, 12, 11)
+excluded: TRAIN 10, VALIDATION 2, TEST 3
+
+Resolved filter (MNE 1.11.0): 8-30 Hz FIR, zero-phase, hamming, firwin, pad reflect_limited;
+filter length 413 samples; transition bandwidth 2.0 Hz (lower) / 7.5 Hz (upper); crop [2.0, 6.0) = 1000 samples
+CSP: n_components 4, reg None, cov_est concat, transform_into average_power, log True, norm_trace False, component_order mutual_info
+LDA: solver svd, shrinkage None, priors None, n_components None, store_covariance False, tol 1e-4, covariance_estimator None
+
+Software Verification: PASS
+split deterministic; no train/validation/test overlap; fit trial ids == TRAIN clean ids; filter deterministic;
+LDA classes [0, 1, 2, 3] == FrozenModelVocabulary; probability/decision-score invariants checked on every prediction;
+reload of the saved CSP+LDA reproduces labels, probabilities and decision scores exactly (tolerance atol=0, rtol=0)
+Leakage/fit-boundary probes (tests/test_baseline.py): CSP.fit and LDA.fit each called once with exactly the
+TRAIN clean preprocessed trials; refit with NaN-ed rejected/validation/test signals, NaN EOG and shuffled
+validation/test labels gives identical fitted state.
+
+Functional Qualification (clean trials only): PASS
+validation N=46 accuracy 0.7609 balanced_accuracy 0.7576 kappa 0.6810
+  confusion [[11,1,0,0],[0,9,3,0],[2,1,7,1],[0,0,3,8]] support left 12, right 12, both_feet 11, tongue 11
+test N=45 accuracy 0.7333 balanced_accuracy 0.7367 kappa 0.6445
+  confusion [[8,3,0,0],[0,11,0,0],[0,1,7,4],[0,0,4,7]] support left 11, right 11, both_feet 12, tongue 11
+Stage Gate (balanced_accuracy > 0.25 and kappa > 0 for validation and test): all four conditions true.
+0.25 is the nominal four-class chance reference, not a significance or SOTA claim.
+
+Frozen Baseline Artifact: COMPLETE
+model_artifact_id 74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:csp-lda-baseline-v1
+canonical_dataset_id 74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:canonical-trial-dataset-v1
+model.joblib SHA-256 3b0f5adc38da6f4b6d8f0320e7542200086b98066846fa68c42ee8e682972772
+(complete fitted mne.decoding.CSP and sklearn LDA objects; no scaler; no calibration; no online adaptation)
+Source processing_status snapshot: UNKNOWN (unchanged; not relabelled)

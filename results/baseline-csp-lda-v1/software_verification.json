@@ -1,0 +1,14 @@
+{
+  "split_manifest_deterministic": true,
+  "no_partition_overlap": true,
+  "fit_trial_ids_are_train_clean": true,
+  "filter_deterministic": true,
+  "class_order_invariant": true,
+  "prediction_invariants_checked": true,
+  "reload_reproducible_exact": {
+    "validation": true,
+    "test": true
+  },
+  "reload_tolerance": "exact equality (atol=0, rtol=0)",
+  "status": "PASS"
+}

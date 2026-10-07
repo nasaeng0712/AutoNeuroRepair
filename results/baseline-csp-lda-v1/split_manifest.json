@@ -1,0 +1,2306 @@
+[
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:91868",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:93871",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:95789",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:97741",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:99749",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:101860",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:103777",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:105827",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:107758",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:109756",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:111662",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:113557",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:115529",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:117473",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:119440",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:121560",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:123568",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:125634",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:127670",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:129736",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:131806",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:133886",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": true,
+    "model_eligible": false,
+    "exclusion_reason": "trial_rejection_marker (native 1023)"
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:135798",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:137829",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:139782",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:141743",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:143847",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:145851",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:147826",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:149852",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:151923",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:154030",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:156122",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:158213",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:160256",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:162320",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:164340",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:166312",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:168275",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:170200",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:172281",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:174259",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:176249",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:178368",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:180274",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:182202",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": true,
+    "model_eligible": false,
+    "exclusion_reason": "trial_rejection_marker (native 1023)"
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:184316",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:186375",
+    "run_id": 1,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:188703",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:190706",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:192624",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:194576",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:196584",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": true,
+    "model_eligible": false,
+    "exclusion_reason": "trial_rejection_marker (native 1023)"
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:198695",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:200612",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:202662",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:204593",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": true,
+    "model_eligible": false,
+    "exclusion_reason": "trial_rejection_marker (native 1023)"
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:206591",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:208497",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:210392",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:212364",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:214308",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:216275",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:218395",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:220403",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:222469",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:224505",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:226571",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": true,
+    "model_eligible": false,
+    "exclusion_reason": "trial_rejection_marker (native 1023)"
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:228641",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:230721",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:232633",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:234664",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:236617",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:238578",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:240682",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:242686",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:244661",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:246687",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:248758",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:250865",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:252957",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:255048",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:257091",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:259155",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:261175",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:263147",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:265110",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:267035",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:269116",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:271094",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:273084",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:275203",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:277109",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:279037",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:281151",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": true,
+    "model_eligible": false,
+    "exclusion_reason": "trial_rejection_marker (native 1023)"
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:283210",
+    "run_id": 2,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:285538",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:287541",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": true,
+    "model_eligible": false,
+    "exclusion_reason": "trial_rejection_marker (native 1023)"
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:289459",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": true,
+    "model_eligible": false,
+    "exclusion_reason": "trial_rejection_marker (native 1023)"
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:291411",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:293419",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:295530",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:297447",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:299497",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:301428",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": true,
+    "model_eligible": false,
+    "exclusion_reason": "trial_rejection_marker (native 1023)"
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:303426",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:305332",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:307227",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:309199",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:311143",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:313110",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:315230",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:317238",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:319304",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:321340",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:323406",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:325476",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:327556",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:329468",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:331499",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:333452",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:335413",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:337517",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:339521",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:341496",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:343522",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:345593",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:347700",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:349792",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:351883",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:353926",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:355990",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:358010",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:359982",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:361945",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:363870",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:365951",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:367929",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:369919",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:372038",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:373944",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:375872",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:377986",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:380045",
+    "run_id": 3,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:382373",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:384376",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:386294",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:388246",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:390254",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:392365",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:394282",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:396332",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:398263",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:400261",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:402167",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:404062",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:406034",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:407978",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:409945",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:412065",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:414073",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:416139",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:418175",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:420241",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:422311",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:424391",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:426303",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:428334",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:430287",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:432248",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:434352",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:436356",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:438331",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:440357",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:442428",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:444535",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:446627",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:448718",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:450761",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:452825",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:454845",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:456817",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:458780",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:460705",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:462786",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:464764",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:466754",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:468873",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:470779",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:472707",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:474821",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:476880",
+    "run_id": 4,
+    "partition": "TRAIN",
+    "rejection_marker_present": true,
+    "model_eligible": false,
+    "exclusion_reason": "trial_rejection_marker (native 1023)"
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:479208",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:481211",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:483129",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:485081",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:487089",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:489200",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:491117",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:493167",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:495098",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:497096",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:499002",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:500897",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:502869",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:504813",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:506780",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:508900",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:510908",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:512974",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:515010",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:517076",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:519146",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:521226",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:523138",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": true,
+    "model_eligible": false,
+    "exclusion_reason": "trial_rejection_marker (native 1023)"
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:525169",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:527122",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:529083",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:531187",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:533191",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:535166",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:537192",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:539263",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:541370",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:543462",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:545553",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:547596",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:549660",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:551680",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:553652",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": true,
+    "model_eligible": false,
+    "exclusion_reason": "trial_rejection_marker (native 1023)"
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:555615",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:557540",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:559621",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:561599",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:563589",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:565708",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:567614",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:569542",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:571656",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:573715",
+    "run_id": 5,
+    "partition": "VALIDATION",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:576043",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:578046",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:579964",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:581916",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:583924",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:586035",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:587952",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:590002",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:591933",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:593931",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:595837",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:597732",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:599704",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:601648",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:603615",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": true,
+    "model_eligible": false,
+    "exclusion_reason": "trial_rejection_marker (native 1023)"
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:605735",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:607743",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:609809",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:611845",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:613911",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:615981",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:618061",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:619973",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:622004",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:623957",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:625918",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:628022",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:630026",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:632001",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:634027",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:636098",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:638205",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:640297",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:642388",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:644431",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:646495",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:648515",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": true,
+    "model_eligible": false,
+    "exclusion_reason": "trial_rejection_marker (native 1023)"
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:650487",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:652450",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:654375",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:656456",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:658434",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:660424",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:662543",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:664449",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:666377",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:668491",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": false,
+    "model_eligible": true,
+    "exclusion_reason": null
+  },
+  {
+    "trial_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:670550",
+    "run_id": 6,
+    "partition": "TEST",
+    "rejection_marker_present": true,
+    "model_eligible": false,
+    "exclusion_reason": "trial_rejection_marker (native 1023)"
+  }
+]

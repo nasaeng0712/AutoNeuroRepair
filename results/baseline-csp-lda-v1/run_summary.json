@@ -1,0 +1,8 @@
+{
+  "software_verification": "PASS",
+  "functional_qualification": "PASS",
+  "frozen_baseline": "COMPLETE",
+  "training_code_commit_sha": "034e18e7b62fa91ca00519be386ef0d88129546f",
+  "model_artifact_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:csp-lda-baseline-v1",
+  "fitted_stack_sha256": "3b0f5adc38da6f4b6d8f0320e7542200086b98066846fa68c42ee8e682972772"
+}

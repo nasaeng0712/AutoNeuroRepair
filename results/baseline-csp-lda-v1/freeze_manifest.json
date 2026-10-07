@@ -1,0 +1,362 @@
+{
+  "model_artifact_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:csp-lda-baseline-v1",
+  "training_config_schema_version": "baseline-config-v1",
+  "training_code_commit_sha": "034e18e7b62fa91ca00519be386ef0d88129546f",
+  "versions": {
+    "python": "3.11.5",
+    "mne": "1.11.0",
+    "scikit_learn": "1.9.1",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1"
+  },
+  "canonical_dataset_id": "74d900ce83a115509f663c0ac45bd36d56f05be528064743c49b0c2efb5088a3:canonical-trial-dataset-v1",
+  "split_manifest_file": "split_manifest.json",
+  "frozen_model_vocabulary": [
+    {
+      "model_class_index": 0,
+      "semantic_label": "left_hand",
+      "native_event_code": "769"
+    },
+    {
+      "model_class_index": 1,
+      "semantic_label": "right_hand",
+      "native_event_code": "770"
+    },
+    {
+      "model_class_index": 2,
+      "semantic_label": "both_feet",
+      "native_event_code": "771"
+    },
+    {
+      "model_class_index": 3,
+      "semantic_label": "tongue",
+      "native_event_code": "772"
+    }
+  ],
+  "eeg_canonical_channel_schema": [
+    {
+      "canonical_channel_id": "bciciv2a:eeg:01",
+      "source_channel_name": "EEG-Fz",
+      "channel_type": "eeg",
+      "source_channel_index": 0
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:02",
+      "source_channel_name": "EEG-0",
+      "channel_type": "eeg",
+      "source_channel_index": 1
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:03",
+      "source_channel_name": "EEG-1",
+      "channel_type": "eeg",
+      "source_channel_index": 2
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:04",
+      "source_channel_name": "EEG-2",
+      "channel_type": "eeg",
+      "source_channel_index": 3
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:05",
+      "source_channel_name": "EEG-3",
+      "channel_type": "eeg",
+      "source_channel_index": 4
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:06",
+      "source_channel_name": "EEG-4",
+      "channel_type": "eeg",
+      "source_channel_index": 5
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:07",
+      "source_channel_name": "EEG-5",
+      "channel_type": "eeg",
+      "source_channel_index": 6
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:08",
+      "source_channel_name": "EEG-C3",
+      "channel_type": "eeg",
+      "source_channel_index": 7
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:09",
+      "source_channel_name": "EEG-6",
+      "channel_type": "eeg",
+      "source_channel_index": 8
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:10",
+      "source_channel_name": "EEG-Cz",
+      "channel_type": "eeg",
+      "source_channel_index": 9
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:11",
+      "source_channel_name": "EEG-7",
+      "channel_type": "eeg",
+      "source_channel_index": 10
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:12",
+      "source_channel_name": "EEG-C4",
+      "channel_type": "eeg",
+      "source_channel_index": 11
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:13",
+      "source_channel_name": "EEG-8",
+      "channel_type": "eeg",
+      "source_channel_index": 12
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:14",
+      "source_channel_name": "EEG-9",
+      "channel_type": "eeg",
+      "source_channel_index": 13
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:15",
+      "source_channel_name": "EEG-10",
+      "channel_type": "eeg",
+      "source_channel_index": 14
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:16",
+      "source_channel_name": "EEG-11",
+      "channel_type": "eeg",
+      "source_channel_index": 15
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:17",
+      "source_channel_name": "EEG-12",
+      "channel_type": "eeg",
+      "source_channel_index": 16
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:18",
+      "source_channel_name": "EEG-13",
+      "channel_type": "eeg",
+      "source_channel_index": 17
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:19",
+      "source_channel_name": "EEG-14",
+      "channel_type": "eeg",
+      "source_channel_index": 18
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:20",
+      "source_channel_name": "EEG-Pz",
+      "channel_type": "eeg",
+      "source_channel_index": 19
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:21",
+      "source_channel_name": "EEG-15",
+      "channel_type": "eeg",
+      "source_channel_index": 20
+    },
+    {
+      "canonical_channel_id": "bciciv2a:eeg:22",
+      "source_channel_name": "EEG-16",
+      "channel_type": "eeg",
+      "source_channel_index": 21
+    }
+  ],
+  "baseline_channel_selection": "all 22 canonical EEG channels (EOG not used)",
+  "expected_sfreq": 250.0,
+  "canonical_epoch": {
+    "tmin": 0.0,
+    "tmax": 6.0,
+    "endpoint_convention": "half_open",
+    "n_times": 1500
+  },
+  "baseline_window": {
+    "tmin": 2.0,
+    "tmax": 6.0,
+    "endpoint_convention": "half_open"
+  },
+  "config": {
+    "training_config_schema_version": "baseline-config-v1",
+    "baseline_version": "csp-lda-baseline-v1",
+    "filter": {
+      "l_freq": 8.0,
+      "h_freq": 30.0,
+      "method": "fir",
+      "phase": "zero",
+      "fir_window": "hamming",
+      "fir_design": "firwin",
+      "filter_length": "auto",
+      "l_trans_bandwidth": "auto",
+      "h_trans_bandwidth": "auto",
+      "pad": "reflect_limited"
+    },
+    "filter_resolved": {
+      "mne_version": "1.11.0",
+      "filter_length_samples": 413,
+      "l_trans_bandwidth_hz": 2.0,
+      "h_trans_bandwidth_hz": 7.5,
+      "padding": "reflect_limited",
+      "sfreq": 250.0,
+      "mne_log": [
+        "Setting up band-pass filter from 8 - 30 Hz",
+        "FIR filter parameters",
+        "---------------------",
+        "Designing a one-pass, zero-phase, non-causal bandpass filter:",
+        "- Windowed time-domain design (firwin) method",
+        "- Hamming window with 0.0194 passband ripple and 53 dB stopband attenuation",
+        "- Lower passband edge: 8.00",
+        "- Lower transition bandwidth: 2.00 Hz (-6 dB cutoff frequency: 7.00 Hz)",
+        "- Upper passband edge: 30.00 Hz",
+        "- Upper transition bandwidth: 7.50 Hz (-6 dB cutoff frequency: 33.75 Hz)",
+        "- Filter length: 413 samples (1.652 s)"
+      ]
+    },
+    "baseline_window": {
+      "tmin": 2.0,
+      "tmax": 6.0,
+      "endpoint_convention": "half_open"
+    },
+    "csp": {
+      "n_components": 4,
+      "reg": null,
+      "cov_est": "concat",
+      "transform_into": "average_power",
+      "log": true,
+      "norm_trace": false,
+      "component_order": "mutual_info"
+    },
+    "lda": {
+      "solver": "svd",
+      "shrinkage": null,
+      "priors": null,
+      "n_components": null,
+      "store_covariance": false,
+      "tol": 0.0001,
+      "covariance_estimator": null
+    }
+  },
+  "fitted_stack_file": "model.joblib",
+  "fitted_stack_sha256": "3b0f5adc38da6f4b6d8f0320e7542200086b98066846fa68c42ee8e682972772",
+  "fitted_stack_contents": "complete fitted mne.decoding.CSP and sklearn LDA objects",
+  "probability_semantics": "native_lda_model_estimate",
+  "decision_score_semantics": "lda_decision_function",
+  "validation_metrics": {
+    "n": 46,
+    "accuracy": 0.7608695652173914,
+    "balanced_accuracy": 0.7575757575757576,
+    "cohen_kappa": 0.6809583858764187,
+    "confusion_matrix": [
+      [
+        11,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        9,
+        3,
+        0
+      ],
+      [
+        2,
+        1,
+        7,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        8
+      ]
+    ],
+    "class_order": [
+      "left_hand",
+      "right_hand",
+      "both_feet",
+      "tongue"
+    ],
+    "per_class_support": {
+      "left_hand": 12,
+      "right_hand": 12,
+      "both_feet": 11,
+      "tongue": 11
+    }
+  },
+  "test_metrics": {
+    "n": 45,
+    "accuracy": 0.7333333333333333,
+    "balanced_accuracy": 0.7367424242424242,
+    "cohen_kappa": 0.6445029624753127,
+    "confusion_matrix": [
+      [
+        8,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        11,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        7,
+        4
+      ],
+      [
+        0,
+        0,
+        4,
+        7
+      ]
+    ],
+    "class_order": [
+      "left_hand",
+      "right_hand",
+      "both_feet",
+      "tongue"
+    ],
+    "per_class_support": {
+      "left_hand": 11,
+      "right_hand": 11,
+      "both_feet": 12,
+      "tongue": 11
+    }
+  },
+  "software_verification": {
+    "split_manifest_deterministic": true,
+    "no_partition_overlap": true,
+    "fit_trial_ids_are_train_clean": true,
+    "filter_deterministic": true,
+    "class_order_invariant": true,
+    "prediction_invariants_checked": true,
+    "reload_reproducible_exact": {
+      "validation": true,
+      "test": true
+    },
+    "reload_tolerance": "exact equality (atol=0, rtol=0)",
+    "status": "PASS"
+  },
+  "functional_qualification": {
+    "gates": {
+      "validation_balanced_accuracy": true,
+      "validation_kappa": true,
+      "test_balanced_accuracy": true,
+      "test_kappa": true
+    },
+    "status": "PASS"
+  },
+  "no_scaler": true,
+  "no_calibration": true,
+  "online_adaptation": false
+}
